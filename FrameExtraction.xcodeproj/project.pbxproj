@@ -12,6 +12,7 @@
 		C3E8677B1E1488470042F78A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E867791E1488470042F78A /* Main.storyboard */; };
 		C3E8677D1E1488470042F78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E8677C1E1488470042F78A /* Assets.xcassets */; };
 		C3E867801E1488470042F78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E8677E1E1488470042F78A /* LaunchScreen.storyboard */; };
+		C3E867881E14898D0042F78A /* FrameExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E867871E14898D0042F78A /* FrameExtractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C3E8677C1E1488470042F78A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E8677F1E1488470042F78A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3E867811E1488470042F78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E867871E14898D0042F78A /* FrameExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameExtractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C3E867751E1488470042F78A /* AppDelegate.swift */,
 				C3E867771E1488470042F78A /* ViewController.swift */,
+				C3E867871E14898D0042F78A /* FrameExtractor.swift */,
 				C3E867791E1488470042F78A /* Main.storyboard */,
 				C3E8677C1E1488470042F78A /* Assets.xcassets */,
 				C3E8677E1E1488470042F78A /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E867881E14898D0042F78A /* FrameExtractor.swift in Sources */,
 				C3E867781E1488470042F78A /* ViewController.swift in Sources */,
 				C3E867761E1488470042F78A /* AppDelegate.swift in Sources */,
 			);
@@ -261,6 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NFY3V62NR8;
 				INFOPLIST_FILE = FrameExtraction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bro.FrameExtraction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NFY3V62NR8;
 				INFOPLIST_FILE = FrameExtraction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bro.FrameExtraction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +306,7 @@
 				C3E867861E1488470042F78A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
